@@ -70,7 +70,7 @@ public class EmpDao {
                 e.setId(rs.getInt(1));  
                 e.setName(rs.getString(2));  
                 e.setAddress(rs.getString(3));
-                e.setAddress(rs.getString(4));  
+                e.setPhone(rs.getString(4));  
             }  
             con.close();  
         }catch(Exception ex){ex.printStackTrace();}  
